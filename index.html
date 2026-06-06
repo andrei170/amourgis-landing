@@ -402,8 +402,8 @@
       <p class="sb">Personal injury: <a href="tel:+18007990827" style="color:var(--forest);font-weight:700">(800) 799-0827</a> &middot; Bankruptcy: <a href="tel:+18008187216" style="color:var(--forest);font-weight:700">(800) 818-7216</a></p>
       <form id="leadForm" novalidate>
         <div class="frow">
-          <div class="field"><label for="nm">Name</label><input id="nm" type="text" required></div>
-          <div class="field"><label for="ph">Phone</label><input id="ph" type="tel" required></div>
+          <div class="field"><label for="nm">Name</label><input id="nm" type="text" required autocomplete="name" aria-required="true"></div>
+          <div class="field"><label for="ph">Phone</label><input id="ph" type="tel" required autocomplete="tel" aria-required="true"></div>
         </div>
         <div class="frow">
           <div class="field"><label for="matter">How can we help?</label>
